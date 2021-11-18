@@ -1,0 +1,16 @@
+nav.mb-3.nav.nav-tabs {
+    width: 100%;
+}
+
+div#noanim-tab-example-tabpane-profile, div#noanim-tab-example-tabpane-home {
+    width: 100% !important;
+}
+a#noanim-tab-example-tab-profiless {
+    margin: 0px 50px;
+}
+a#noanim-tab-example-tab-profiles {
+    margin: 0px 50px;
+}
+th,tr{
+    text-align: center;
+}

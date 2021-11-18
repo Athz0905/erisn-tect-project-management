@@ -1,0 +1,242 @@
+@media screen and (max-width: 1800px) and (min-width: 1250px) {
+
+    .Proj_main_l {
+        width: 18%;
+    }
+    .Proj_main_r {
+       width: 82%;
+       padding: 0 20px 0 10px;
+    }
+} 
+
+
+@media screen and (max-width: 1250px) and (min-width: 900px) {
+
+    .header_main_l {
+        width: 57%;
+    }
+    .header_side {
+        width: 40%;
+    }
+} 
+
+@media  screen and (max-width: 1025px) {
+  
+}
+
+@media only screen and (max-width: 991px) { 
+    .sidebar {
+        background-color: #F5F5F5;
+        position: inherit;
+        height: 100%;
+    }
+    .header_main , .Proj_main  {
+        display: block;
+    }
+    .Proj_main_l {
+        width: 100%;
+        text-align: center;
+    }
+    .Proj_main_r {
+        width: 100%;
+        padding: 20px;
+    }
+    .header_main_l {
+        width: 100%;
+    }
+    .header_side {
+        margin: 20px;
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+    }
+    .header_main_r {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .home_block {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+    }
+    .home_block_sec {
+        display: block;
+        margin: 30px auto;
+    }
+    .home_block_sec_l {
+        width: 100%;
+    }
+    .home_block_sec_r {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .react-calendar {
+        width: 300px;
+        max-width: 100%;
+        background: white;
+        line-height: 1.125em;
+        border: 1px solid #d8bbbb !important;
+        border-radius: 12px;
+        margin: 15px 0px;
+        margin: auto;
+    }
+    .card_manage_block {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 11px;
+        width: 280px;
+        /* margin: 0px 30px 10px; */
+        margin: 20px auto;
+        height: 170px;
+    }
+    .login_manage_block, .signup_manage_block {
+        display: block;
+        /* height: 80vh; */
+        margin: 0 30px;
+    }
+    img.image_proj {
+        width: 100%;
+    }
+    .login_manage_block_r {
+        width: 100%;
+        display: block;
+        align-items: center;
+        margin: 20px auto;
+    
+    }
+    .step_details {
+        width: 30%;
+    }
+    a#noanim-tab-example-tab-profiless {
+        margin: 0px 25px;
+    }
+    a#noanim-tab-example-tab-profilsse {
+        margin: 0 25px;
+    }
+    a#noanim-tab-example-tab-profiles {
+        margin: 0px 25px;
+        display: block;
+    }
+    .projectmaintabs {
+        position: relative;
+        /* margin-bottom: 30px; */
+        margin-top: 40px;
+    }
+    .projectmaintabs_sec {
+        position: absolute;
+        top: -45px;
+        left: 0;
+        /* margin-bottom: 40px; */
+    }
+    .login_manage_block_l {
+        width: 100%;
+        display: block;
+        align-items: flex-end;
+    }
+    .signup_manage_block_l , .signup_manage_block_r  {
+        width: 100%;
+    }
+    .signup_manage_block_r {
+        width: 100%;
+        display: block;
+        align-items: flex-end;
+        margin: 20px auto;
+    }
+    .forgotpassword_info {
+        width: 100%;
+    }
+    .viewdetail_r {
+        width: 100%;
+    }
+    .viewdetail_r , .viewdetail_l {
+    width: 100%;
+}
+
+.viewdetail_r_block {
+    display: block;
+    justify-content: space-between;
+    width: 81%;
+}
+.viewdetail_r_sec {
+    margin: 10px 0;
+}
+.uploader {
+    text-align: center;
+    width: 100%;
+    margin: 10px auto;
+}
+.btnclass_block {
+    background: #ff858514;
+    border-radius: 9px;
+    padding: 5px;
+    /* display: inline; */
+    width: auto;
+    display: block;
+}
+.markaspaid span {
+    background: green;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: block;
+}
+.projectmaintabs_update_sect {
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.projectmaintabs_update_sec h5 {
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: bold;
+     margin-top: 30px; 
+}
+.projectmaintabs_update_sec p {
+    font-size: 16px;
+    font-family: 'Roboto';
+    margin-top: 30px;
+}
+.projectmaintabs_update_sec p {
+    font-size: 16px;
+    font-family: 'Roboto';
+    margin-top: 10px;
+}
+.projectmaintabs_update_section {
+    display: block;
+    justify-content: space-between;
+}
+.profileCreation {
+    display: block;
+    justify-content: space-between;
+}
+.invite_users input {
+    width: 100%;
+}
+.invite_users select {
+    width: 100%;
+}
+.viewdetail {
+    display: block ;
+}
+
+} 
+@media only screen and (max-width: 768px) {
+  
+} 
+@media only screen and (max-width: 568px) {
+    .viewdetail {
+        display: block !important;
+    }
+    .step_details {
+        width: 47%;
+    }
+  
+  
+} 
+@media only screen and (max-width: 414px) {
+  
+} 
